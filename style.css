@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.nav-bar {
+  padding: 2em 1em;
+}
+
 .bg-img-meeting {
   background-image: url(https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWVldGluZ3xlbnwwfHwwfHx8Mg%3D%3D);
 }
