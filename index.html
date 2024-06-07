@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knight Studios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" />
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- Reworked head element to fix error 
+  <!DOCTYPE html>
 <head>
 <html lang= "en";
     <meta charset="UTF-8" >
@@ -8,277 +24,305 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css" />
     <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-  </head>
+  </head> -->
 
-  <body class="debug">
-    <!-- ANCHOR LANDING PAGE -->
-    <header>
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-12 bg-dark text-light text-center landing-page d-flex flex-column justify-content-center">
-            <div>
-              <i>logo</i>
-              <h1>Welcome to knight studios</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, vel.</p>
-              <button>GET STARTED</button>
-            </div>
+<body class="debug">
+  <!-- ANCHOR LANDING PAGE -->
+  <header>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-dark text-light text-center landing-page d-flex flex-column justify-content-center">
+          <div>
+            <!--TODO Figure out why the logo won't get bigger-->
+            <i class="mdi mdi-chess-knight knight-logo"></i>
+            <h1>Welcome to Knight Studios</h1>
+            <p>We are a team of talented designers making websites with Bootstrap</p>
+            <button class="bg-success p-2 rounded">GET STARTED</button>
           </div>
-          <section class=" container-fluid">
-            <div class="row nav-bar">
+        </div>
+        <section class="container-fluid">
+          <div class="row nav-bar">
             <div class="col-2">
-              <i>LOGO</i>
+              <i class="mdi mdi-chess-knight"></i>
             </div>
-              <div class="col-10 text-end">
-                <a class="px-2" href="">HOME</a>
-                <a class="px-2" href="">ABOUT</a>
-                <a class="px-2" href="">SERVICES</a>
-                <a class="px-2" href="">PORTFOLIO</a>
-                <a class="px-2" href="">TEAM</a>
-                <a class="px-2" href="">PRICING</a>
-                <a class="px-2" href="">DROP DOWN</a>
-                <a class="px-2" href="">CONTACT</a>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-    </header>
-    <main>
-      <!-- ANCHOR about page -->
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <p class="fs-2 fw-bold text-center">ABOUT US</p>
-              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </div>
-            <div class="col-6">
-              <img class="img-fluid" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="group meeting" />
-            </div>
-            <div class="col-6">
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex iure ut mollitia?</p>
-              <p><i></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quo!</p>
-              <p><i></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quo!</p>
-              <p><i></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quo!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quo!</p>
+            <div class="col-10 text-end">
+              <a class="px-2 nav-links text-success">HOME</a>
+              <a class="px-2 nav-links">ABOUT</a>
+              <a class="px-2 nav-links">SERVICES</a>
+              <a class="px-2 nav-links">PORTFOLIO</a>
+              <a class="px-2 nav-links text-success">TEAM</a>
+              <a class="px-2 nav-links">PRICING</a>
+              <a class="px-2 nav-links">DROP DOWN<i class="mdi mdi-menu-down"></i></a>
+              <a class="px-2 nav-links">CONTACT</a>
             </div>
           </div>
-          <div></div>
+        </section>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- ANCHOR about page -->
+    <section class="mt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <p class="fs-2 fw-bold text-center">ABOUT US</p>
+            <p class="text-center pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+          <div class="col-6">
+            <img class="img-fluid"
+              src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="group meeting" />
+          </div>
+          <div class="col-6">
+            <p class="fw-bold fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor.</p>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium officia facilis? Temporibus, eligendi enim!</p>
+            <p><i class="mdi mdi-check-all text-success"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos.</p>
+            <p><i class="mdi mdi-check-all text-success"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, facere.</p>
+            <p><i class="mdi mdi-check-all text-success"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam illum minus tempora a consequuntur eveniet temporibus aspernatur fugit debitis, neque voluptatem autem accusamus at fuga modi recusandae magnam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente et doloribus voluptatibus quam suscipit reprehenderit accusamus obcaecati maiores perferendis veniam possimus reiciendis velit est fugiat labore, molestiae ab vero nostrum, magni ipsa? Excepturi, voluptates quaerat.</p>
+          </div>
         </div>
-      </section>
-      <!-- ANCHOR services -->
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-            <p class="fs-2 fw-bold text-center mt-5 pt-5 ">SERVICES</p>
-            <p class="text-center pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            </p>
-            <div class="col-6">
-              <div class="row py-5 mb-5">
-                <div class="col-12 d-flex align-items-center">
-                  <i>icon</i>
-                  <div> <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p></div>
+      </div>
+    </section>
+
+    <!-- ANCHOR services -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <p class="fs-2 fw-bold text-center mt-5 pt-5 ">SERVICES</p>
+          <p class="text-center pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <div class="col-6">
+            <div class="row py-5 mb-3">
+              <div class="col-12 d-flex align-items-center">
+                <i class="mdi mdi-newspaper-variant-outline text-success fs-2 p-2"></i>
+                <div>
+                  <h2 class="fs-5">Lorem, ipsum dolor..</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p>
                 </div>
-                <div class="col-12 d-flex align-items-center">
-                  <i>icon</i>
-                  <div> <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p></div>
+              </div>
+              <div class="col-12 d-flex align-items-center">
+                <i class="mdi mdi-cube-outline text-success fs-2 p-2"></i>
+                <div>
+                  <h2 class="fs-5">Lorem sit amet..</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p>
                 </div>
-                <div class="col-12 d-flex align-items-center">
-                  <i>icon</i>
-                  <div> <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p></div>
+              </div>
+              <div class="col-12 d-flex align-items-center">
+                <i class="mdi mdi-image-multiple text-success fs-2 p-2"></i>
+                <div>
+                  <h2 class="fs-5">Lorem ipsum consectetur..</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p>
                 </div>
-               <div class="col-12 d-flex align-items-center">
-                  <i>icon</i>
-                  <div> <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p></div>
+              </div>
+              <div class="col-12 d-flex align-items-center">
+                <i class="mdi mdi-shield-outline text-success fs-2 p-2"></i>
+                <div>
+                  <h2 class="fs-5">Lorem sit adipisicing..</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel aliquid accusamus.</p>
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <img class="img-fluid" src="https://images-ext-1.discordapp.net/external/vxl56XHSNL1cO_UEYseqji5V1BKRS-7uIzCQ0nGVAd8/%3Fq%3D80%26w%3D2670%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D/https/images.unsplash.com/photo-1612831200752-a70d1d1bb83b?format=webp&width=1842&height=1228" alt="Hands on keyboard" />
-            </div>
+          </div>
+          <div class="col-6">
+            <img class="img-fluid"
+              src="https://images-ext-1.discordapp.net/external/vxl56XHSNL1cO_UEYseqji5V1BKRS-7uIzCQ0nGVAd8/%3Fq%3D80%26w%3D2670%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D/https/images.unsplash.com/photo-1612831200752-a70d1d1bb83b?format=webp&width=1842&height=1228"
+              alt="Hands on keyboard" />
           </div>
         </div>
-      </section>
-      <section>
-        <div class="container-fluid">
-          <div class="row mt-5">
-            <div class="col-6">
-              <img src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-flying-with-air-balloon-bulb-9106709-7394747.png?f=webp" />
-            </div>
-            <div class="col-6">
-              <div class="row">
-                <div class="col-12">
-                  <h2>Lorem, ipsum dolor.</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row mt-5 pb-5">
+          <div class="col-6">
+            <img
+              src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-flying-with-air-balloon-bulb-9106709-7394747.png?f=webp" />
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="box-shadow">
+                  <h2 class="fs-5 text-success">Lorem, ipsum dolor.</h2>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
                 </div>
-                <div class="col-12">
-                  <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
-                </div>
-                <div class="col-12">
-                  <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
-                </div>
-                <div class="col-12">
-                  <h2>Lorem, ipsum dolor.</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
-                </div>
+              </div>
+              <div class="col-12">
+                <h2 class="fs-5">Lorem ipsum consectetur.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
+              </div>
+              <div class="col-12">
+                <h2 class="fs-5">Lorem dolor adipisicing.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="col-12">
+                <h2 class="fs-5">Lorem adipisicing elit.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam laboriosam provident.</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-7">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam ut minus quia sequi provident asperiores consequuntur ducimus harum soluta?</p>
-                </div>
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsum quis sint corporis itaque iusto nobis qui reiciendis quae incidunt!</p>
-                </div>
-                <div class="col-12">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="col-12">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-              </div>
-            </div>
-            <!-- TODO fix visibility -->
-            <div class="col-5 bg-img-meeting">
-              <p class="fs-1">▶Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci facere eum at.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ANCHOR testimony -->
-      <section>
-        <div class="container-fluid bg-img-towers">
-          <div class="row">
-            <div class="col-12 d-flex flex-column justify-content-center">
-              <i>quotes</i>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, itaque corporis. Tenetur, veniam facere voluptate laborum voluptatem enim magni ratione.</p>
-              <img class="img-fluid guy-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3MlMjBtYW58ZW58MHx8MHx8fDI%3D" alt="placeholder guy" />
-              <p>Lorem, ipsum.</p>
-              <p>Lorem.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ANCHOR pricing -->
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center">
-              <p class="fs-2">PRICING</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi!</p>
-            </div>
-
-            <div class="col-3">
-              <div class="card" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+    <section>
+      <div class="container-fluid">
+        <div class="row bg-light">
+          <div class="col-7">
+            <div class="row">
+              <div class="col-10 bg-white m-1">
+                <p class="fs-4">Lorem ipsum dolor sit <b>amet consectetur adipisicing elit.</b></p>
+                <p class="mb-2"><small class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam, velit ullam iure numquam ex fugiat eius quos non eum autem, accusantium nam quod nemo?</small></p>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="card" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="col-10 bg-white">
+                <p>Lorem ipsum dolor sit amet, consectetur</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsum quis sint corporis itaque
+                  iusto nobis qui reiciendis quae incidunt!</p>
               </div>
-            </div>
-            <div class="col-3">
-              <div class="card" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="col-10 bg-white">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+              <div class="col-10 bg-white">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- ANCHOR contact -->
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <p>CONTACT</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt esse commodi reiciendis.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <p><i>😀</i>Location</p>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-              <p><i>😀</i>Email</p>
-              <p>bob123@gmail.com</p>
-              <p><i>😀</i>Call</p>
-              <p>123 2234-3666</p>
-            </div>
-            <div class="col-6">
-              <form>
-                <input type="text" name="" id="" placeholder="your name" />
-                <input type="text" name="" id="" placeholder="Email" />
-                <input type="text" name="" id="" placeholder="subject" />
-                <input type="text" name="" id="" placeholder="message" />
-                <button type="submit">Send Message</button>
-              </form>
-            </div>
+          <!-- TODO fix visibility -->
+          <div class="col-5 bg-img-meeting">
+            <p class="fs-1">▶Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci facere eum at.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--ANCHOR Subscribe-->
+    <!-- ANCHOR testimony -->
+    <section>
+      <div class="container-fluid bg-img-towers">
+        <div class="row">
+          <div class="col-12 d-flex flex-column justify-content-center">
+            <i>quotes</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, itaque corporis. Tenetur, veniam facere
+              voluptate laborum voluptatem enim magni ratione.</p>
+            <img class="img-fluid guy-img"
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3MlMjBtYW58ZW58MHx8MHx8fDI%3D"
+              alt="placeholder guy" />
+            <p>Lorem, ipsum.</p>
+            <p>Lorem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <i>knight</i>
-              <p class="fs-2">Knight</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis aperiam est!</p>
+    <!-- ANCHOR pricing -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="fs-2">PRICING</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, commodi!</p>
+          </div>
+
+          <div class="col-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-            <div class="col-12">
-              <form class="form-inline">
-                <div class="form-group mb-2">
-                  <label for="staticEmail2" class="sr-only">Email</label>
-                  <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com" />
-                </div>
-                <div class="form-group mx-sm-3 mb-2">
-                  <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your email" />
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-              </form>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
-            <div class="col-12 text-center">
-              <a href="">Twitter</a>
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-              <a href="">Skype</a>
-              <a href="">LinkedId</a>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <!-- ANCHOR contact -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>CONTACT</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt esse commodi reiciendis.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <p><i>😀</i>Location</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p><i>😀</i>Email</p>
+            <p>bob123@gmail.com</p>
+            <p><i>😀</i>Call</p>
+            <p>123 2234-3666</p>
+          </div>
+          <div class="col-6">
+            <form>
+              <input type="text" name="" id="" placeholder="your name" />
+              <input type="text" name="" id="" placeholder="Email" />
+              <input type="text" name="" id="" placeholder="subject" />
+              <input type="text" name="" id="" placeholder="message" />
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--ANCHOR Subscribe-->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <i>knight</i>
+            <p class="fs-2">Knight</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis aperiam est!</p>
+          </div>
+          <div class="col-12">
+            <form class="form-inline">
+              <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only">Email</label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
+                  value="email@example.com" />
+              </div>
+              <div class="form-group mx-sm-3 mb-2">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your email" />
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+          </div>
+          <div class="col-12 text-center">
+            <a href="">Twitter</a>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Skype</a>
+            <a href="">LinkedId</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

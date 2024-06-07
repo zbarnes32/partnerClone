@@ -2,8 +2,20 @@
   height: 100vh;
 }
 
+.knight-logo {
+  height: 100px;
+}
+
+
 .nav-bar {
   padding: 2em 1em;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 5px black;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
 }
 
 .bg-img-meeting {
@@ -20,3 +32,15 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
+
+/* TODO Try and fix later
+.box-shadow {
+  border: 1px solid rgb(124, 123, 123, 0.5);
+  box-shadow: 0px, 1px, 6px, rgb(46, 46, 46, 0.25);
+  padding-top: 1em;
+  padding-left: 1em;
+}
+*/
+
+
+
